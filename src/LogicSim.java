@@ -68,8 +68,7 @@ public class LogicSim {
     }
     public static void main(String[] args) {
         LogicSim test = new LogicSim();
-        System.out.println(test.circuitOne());
-        System.out.println(test.toString(test.circuitTwo()));
-        System.out.print(test.intA + " " + test.intB);
+        System.out.println("Circuit 1 : " + test.circuitOne());
+        System.out.println("Circuit 2 : " + test.toString(test.circuitTwo()));
     }
 }
